@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9EEDA612652362F00C47741 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA602652362F00C47741 /* AppDelegate.m */; };
+		D9EEDA642652362F00C47741 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA632652362F00C47741 /* SceneDelegate.m */; };
+		D9EEDA6A2652362F00C47741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EEDA682652362F00C47741 /* Main.storyboard */; };
+		D9EEDA6D2652362F00C47741 /* KxMemoObjC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA6B2652362F00C47741 /* KxMemoObjC.xcdatamodeld */; };
+		D9EEDA6F2652363100C47741 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EEDA6E2652363100C47741 /* Assets.xcassets */; };
+		D9EEDA722652363100C47741 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EEDA702652363100C47741 /* LaunchScreen.storyboard */; };
+		D9EEDA752652363100C47741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA742652363100C47741 /* main.m */; };
+		D9EEDA8126523B0A00C47741 /* MemoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA8026523B0A00C47741 /* MemoListTableViewController.m */; };
+		D9EEDA862652574400C47741 /* ComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA852652574400C47741 /* ComposeViewController.m */; };
+		D9EEDA8926526DE300C47741 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA8826526DE300C47741 /* DetailViewController.m */; };
+		D9EEDA8E265277CC00C47741 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA8D265277CC00C47741 /* DataManager.m */; };
+		D9EEDA9A26527D1000C47741 /* Memo+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA9826527D1000C47741 /* Memo+CoreDataClass.m */; };
+		D9EEDA9B26527D1000C47741 /* Memo+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EEDA9926527D1000C47741 /* Memo+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9EEDA5C2652362F00C47741 /* KxMemoObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KxMemoObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EEDA5F2652362F00C47741 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9EEDA602652362F00C47741 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9EEDA622652362F00C47741 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D9EEDA632652362F00C47741 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D9EEDA692652362F00C47741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9EEDA6C2652362F00C47741 /* KxMemoObjC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KxMemoObjC.xcdatamodel; sourceTree = "<group>"; };
+		D9EEDA6E2652363100C47741 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9EEDA712652363100C47741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9EEDA732652363100C47741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EEDA742652363100C47741 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9EEDA7F26523B0A00C47741 /* MemoListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MemoListTableViewController.h; sourceTree = "<group>"; };
+		D9EEDA8026523B0A00C47741 /* MemoListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MemoListTableViewController.m; sourceTree = "<group>"; };
+		D9EEDA842652574400C47741 /* ComposeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComposeViewController.h; sourceTree = "<group>"; };
+		D9EEDA852652574400C47741 /* ComposeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComposeViewController.m; sourceTree = "<group>"; };
+		D9EEDA8726526DE300C47741 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D9EEDA8826526DE300C47741 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D9EEDA8C265277CC00C47741 /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		D9EEDA8D265277CC00C47741 /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		D9EEDA9626527D1000C47741 /* Memo+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Memo+CoreDataClass.h"; sourceTree = "<group>"; };
+		D9EEDA9726527D1000C47741 /* Memo+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Memo+CoreDataProperties.h"; sourceTree = "<group>"; };
+		D9EEDA9826527D1000C47741 /* Memo+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Memo+CoreDataClass.m"; sourceTree = "<group>"; };
+		D9EEDA9926527D1000C47741 /* Memo+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Memo+CoreDataProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9EEDA592652362F00C47741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9EEDA532652362F00C47741 = {
+			isa = PBXGroup;
+			children = (
+				D9EEDA5E2652362F00C47741 /* KxMemoObjC */,
+				D9EEDA5D2652362F00C47741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9EEDA5D2652362F00C47741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9EEDA5C2652362F00C47741 /* KxMemoObjC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9EEDA5E2652362F00C47741 /* KxMemoObjC */ = {
+			isa = PBXGroup;
+			children = (
+				D9EEDA9526527D1000C47741 /* Entity */,
+				D9EEDA8B2652770D00C47741 /* CoreData */,
+				D9EEDA8A2652722100C47741 /* MemoScene */,
+				D9EEDA83265242C400C47741 /* App */,
+				D9EEDA6E2652363100C47741 /* Assets.xcassets */,
+				D9EEDA702652363100C47741 /* LaunchScreen.storyboard */,
+				D9EEDA732652363100C47741 /* Info.plist */,
+			);
+			path = KxMemoObjC;
+			sourceTree = "<group>";
+		};
+		D9EEDA83265242C400C47741 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D9EEDA742652363100C47741 /* main.m */,
+				D9EEDA5F2652362F00C47741 /* AppDelegate.h */,
+				D9EEDA602652362F00C47741 /* AppDelegate.m */,
+				D9EEDA622652362F00C47741 /* SceneDelegate.h */,
+				D9EEDA632652362F00C47741 /* SceneDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D9EEDA8A2652722100C47741 /* MemoScene */ = {
+			isa = PBXGroup;
+			children = (
+				D9EEDA682652362F00C47741 /* Main.storyboard */,
+				D9EEDA8726526DE300C47741 /* DetailViewController.h */,
+				D9EEDA8826526DE300C47741 /* DetailViewController.m */,
+				D9EEDA842652574400C47741 /* ComposeViewController.h */,
+				D9EEDA852652574400C47741 /* ComposeViewController.m */,
+				D9EEDA7F26523B0A00C47741 /* MemoListTableViewController.h */,
+				D9EEDA8026523B0A00C47741 /* MemoListTableViewController.m */,
+			);
+			path = MemoScene;
+			sourceTree = "<group>";
+		};
+		D9EEDA8B2652770D00C47741 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				D9EEDA6B2652362F00C47741 /* KxMemoObjC.xcdatamodeld */,
+				D9EEDA8C265277CC00C47741 /* DataManager.h */,
+				D9EEDA8D265277CC00C47741 /* DataManager.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		D9EEDA9526527D1000C47741 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D9EEDA9626527D1000C47741 /* Memo+CoreDataClass.h */,
+				D9EEDA9726527D1000C47741 /* Memo+CoreDataProperties.h */,
+				D9EEDA9826527D1000C47741 /* Memo+CoreDataClass.m */,
+				D9EEDA9926527D1000C47741 /* Memo+CoreDataProperties.m */,
+			);
+			name = Entity;
+			path = KxMemoObjC/Entity;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9EEDA5B2652362F00C47741 /* KxMemoObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9EEDA782652363100C47741 /* Build configuration list for PBXNativeTarget "KxMemoObjC" */;
+			buildPhases = (
+				D9EEDA582652362F00C47741 /* Sources */,
+				D9EEDA592652362F00C47741 /* Frameworks */,
+				D9EEDA5A2652362F00C47741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KxMemoObjC;
+			productName = KxMemoObjC;
+			productReference = D9EEDA5C2652362F00C47741 /* KxMemoObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9EEDA542652362F00C47741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D9EEDA5B2652362F00C47741 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = D9EEDA572652362F00C47741 /* Build configuration list for PBXProject "KxMemoObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9EEDA532652362F00C47741;
+			productRefGroup = D9EEDA5D2652362F00C47741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9EEDA5B2652362F00C47741 /* KxMemoObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9EEDA5A2652362F00C47741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EEDA722652363100C47741 /* LaunchScreen.storyboard in Resources */,
+				D9EEDA6F2652363100C47741 /* Assets.xcassets in Resources */,
+				D9EEDA6A2652362F00C47741 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9EEDA582652362F00C47741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EEDA8126523B0A00C47741 /* MemoListTableViewController.m in Sources */,
+				D9EEDA9B26527D1000C47741 /* Memo+CoreDataProperties.m in Sources */,
+				D9EEDA752652363100C47741 /* main.m in Sources */,
+				D9EEDA8926526DE300C47741 /* DetailViewController.m in Sources */,
+				D9EEDA612652362F00C47741 /* AppDelegate.m in Sources */,
+				D9EEDA862652574400C47741 /* ComposeViewController.m in Sources */,
+				D9EEDA9A26527D1000C47741 /* Memo+CoreDataClass.m in Sources */,
+				D9EEDA6D2652362F00C47741 /* KxMemoObjC.xcdatamodeld in Sources */,
+				D9EEDA8E265277CC00C47741 /* DataManager.m in Sources */,
+				D9EEDA642652362F00C47741 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9EEDA682652362F00C47741 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9EEDA692652362F00C47741 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9EEDA702652363100C47741 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9EEDA712652363100C47741 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9EEDA762652363100C47741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9EEDA772652363100C47741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9EEDA792652363100C47741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JSJLJ4FN;
+				INFOPLIST_FILE = KxMemoObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeonggo.KxMemoObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9EEDA7A2652363100C47741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2JSJLJ4FN;
+				INFOPLIST_FILE = KxMemoObjC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeonggo.KxMemoObjC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9EEDA572652362F00C47741 /* Build configuration list for PBXProject "KxMemoObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EEDA762652363100C47741 /* Debug */,
+				D9EEDA772652363100C47741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9EEDA782652363100C47741 /* Build configuration list for PBXNativeTarget "KxMemoObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EEDA792652363100C47741 /* Debug */,
+				D9EEDA7A2652363100C47741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9EEDA6B2652362F00C47741 /* KxMemoObjC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9EEDA6C2652362F00C47741 /* KxMemoObjC.xcdatamodel */,
+			);
+			currentVersion = D9EEDA6C2652362F00C47741 /* KxMemoObjC.xcdatamodel */;
+			path = KxMemoObjC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D9EEDA542652362F00C47741 /* Project object */;
+}
